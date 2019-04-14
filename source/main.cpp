@@ -24,6 +24,10 @@ namespace tce
 			{
 				subs::timecycle::on_tick(g_menu);
 			}
+			else if (g_menu.CurrentMenu("timecyclemodifier_value"))
+			{
+				subs::timecyclemodifier_value::on_tick(g_menu);
+			}
 
 			WAIT(0);
 		}

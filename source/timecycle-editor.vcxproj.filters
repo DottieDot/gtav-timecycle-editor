@@ -39,6 +39,9 @@
     <ClCompile Include="submenus\timecycle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="submenus\timecyclemodifier_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="keyboard\keyboard.h">
@@ -78,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="submenus\timecycle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="submenus\timecyclemodifier_value.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

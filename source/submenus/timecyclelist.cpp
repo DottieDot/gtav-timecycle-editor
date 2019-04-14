@@ -1,7 +1,7 @@
 #include "timecyclelist.hpp"
 #include "../stdafx.h"
 
-rage::TimecycleModifier* tce::subs::timecyclelist::g_selectedModifier = nullptr;
+rage::TimecycleModifier* tce::subs::timecyclelist::g_selected_modifier = nullptr;
 
 void tce::subs::timecyclelist::on_tick(NativeMenu::Menu &menu)
 {
@@ -17,7 +17,7 @@ void tce::subs::timecyclelist::on_tick(NativeMenu::Menu &menu)
 		sprintf_s(buf, "0x%08X", modifier->m_nameHash);
 		if (menu.MenuOption(buf, "timecycle"))
 		{
-			g_selectedModifier = modifier;
+			g_selected_modifier = modifier;
 		}
 	}
 

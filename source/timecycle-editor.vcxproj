@@ -167,6 +167,7 @@
     <ClCompile Include="memory\patternscan.cpp" />
     <ClCompile Include="submenus\timecycle.cpp" />
     <ClCompile Include="submenus\timecyclelist.cpp" />
+    <ClCompile Include="submenus\timecyclemodifier_value.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="keyboard\keyboard.h" />
@@ -181,6 +182,7 @@
     <ClInclude Include="submenus\include.hpp" />
     <ClInclude Include="submenus\timecycle.hpp" />
     <ClInclude Include="submenus\timecyclelist.hpp" />
+    <ClInclude Include="submenus\timecyclemodifier_value.hpp" />
     <ClInclude Include="util.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,7 +4,7 @@
 
 namespace tce::subs::timecyclelist
 {
-	extern rage::TimecycleModifier* g_selectedModifier;
+	extern rage::TimecycleModifier* g_selected_modifier;
 
 	void on_tick(NativeMenu::Menu &menu);
 }
