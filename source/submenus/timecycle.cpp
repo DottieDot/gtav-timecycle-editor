@@ -1,6 +1,7 @@
-#include "timecycle.hpp"
 #include "../stdafx.h"
+#include "timecycle.hpp"
 #include "timecyclelist.hpp"
+#include "../data.hpp"
 
 rage::TimecycleModifierValue* tce::subs::timecycle::g_selected_modifier_value = nullptr;
 
@@ -8,10 +9,12 @@ void tce::subs::timecycle::on_tick(NativeMenu::Menu& menu)
 {
 	auto* modifier = tce::subs::timecyclelist::g_selected_modifier;
 
-	char buf[0xFF];
-	sprintf_s(buf, "0x%08X", modifier->m_nameHash);
+	menu.Title(data::g_timecycle_modifier_names[modifier->m_nameHash]);
 
-	menu.Title(buf);
+	if (menu.Option("Set Active"))
+	{
+
+	}
 
 	for (uint16_t i = 0; i < modifier->modifiers.m_count; ++i)
 	{

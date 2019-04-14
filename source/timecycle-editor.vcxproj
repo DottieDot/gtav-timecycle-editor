@@ -165,6 +165,7 @@
     <ClCompile Include="memory\memory.cpp" />
     <ClCompile Include="memory\memorylocation.cpp" />
     <ClCompile Include="memory\patternscan.cpp" />
+    <ClCompile Include="data.cpp" />
     <ClCompile Include="submenus\timecycle.cpp" />
     <ClCompile Include="submenus\timecyclelist.cpp" />
     <ClCompile Include="submenus\timecyclemodifier_value.cpp" />
@@ -179,6 +180,7 @@
     <ClInclude Include="rage\TimecycleModifierPool.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="main.hpp" />
+    <ClInclude Include="data.hpp" />
     <ClInclude Include="submenus\include.hpp" />
     <ClInclude Include="submenus\timecycle.hpp" />
     <ClInclude Include="submenus\timecyclelist.hpp" />

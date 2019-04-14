@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "submenus/include.hpp"
 #include "main.hpp"
+#include "data.hpp"
 
 namespace tce
 {
@@ -10,6 +11,9 @@ namespace tce
 	{
 		g_menu.SetFiles("tce/setting.ini");
 		g_menu.ReadSettings();
+		g_menu.cheatString = "timecycles";
+
+		data::load_timecycle_modifier_names();
 
 		g_menu.OpenMenu();
 		for (;;)
