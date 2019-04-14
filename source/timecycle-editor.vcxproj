@@ -172,6 +172,7 @@
     <ClInclude Include="rage\TimecycleModifierPool.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="main.hpp" />
+    <ClInclude Include="util.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,6 @@
 #pragma once
 #include "TimecycleModifier.hpp"
+#include "../util.hpp"
 
 #pragma pack(push, 1)
 namespace rage
@@ -30,7 +31,7 @@ namespace rage
 			if (m_modifiers.m_count >= m_modifiers.m_size)
 			{
 				auto tmp = m_modifiers.m_offset;
-				m_modifiers.m_offset = new TimecycleModifier[m_modifiers.m_size += 10];
+				m_modifiers.m_offset = new TimecycleModifier[scast<size_t>(m_modifiers.m_size += 10)];
 				std::memcpy(m_modifiers.m_offset, tmp, m_modifiers.m_count);
 
 				if (nativeAlloc)
