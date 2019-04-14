@@ -16,7 +16,6 @@ namespace rage
 	{
 	public:
 		atArray<TimecycleModifierValue> modifiers; // 0x0000
-		char pad_000C[4]; // 0x000C
 		uint32_t m_nameHash; // 0x0010
 		char pad_0014[12]; // 0x0014
 		uint32_t m_userFlags; // 0x0020

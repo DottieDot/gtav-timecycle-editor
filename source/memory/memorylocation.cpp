@@ -1,8 +1,7 @@
-#include "../header.hpp"
 #include "memorylocation.hpp"
 #include <vector>
 
-namespace shv::memory
+namespace tce::memory
 {
 	struct ModifiedMemoryData
 	{

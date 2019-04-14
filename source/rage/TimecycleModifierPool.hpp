@@ -11,8 +11,9 @@ namespace rage
 		static inline bool nativeAlloc = false;
 
 	public:
-		atArray<TimecycleModifier> m_modifiers;
+		atArray<TimecycleModifier*> m_modifiers;
 
+		/*
 		TimecycleModifier* getModifierByHash(uint32_t nameHash)
 		{
 			for (auto i = 0; i < m_modifiers.m_count; ++i)
@@ -42,7 +43,7 @@ namespace rage
 			}
 
 			m_modifiers.m_offset[m_modifiers.m_count++] = modifier;
-		}
+		}*/
 	};
 }
 #pragma pack(pop)
