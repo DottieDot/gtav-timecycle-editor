@@ -165,6 +165,7 @@
     <ClCompile Include="memory\memory.cpp" />
     <ClCompile Include="memory\memorylocation.cpp" />
     <ClCompile Include="memory\patternscan.cpp" />
+    <ClCompile Include="submenus\timecycle.cpp" />
     <ClCompile Include="submenus\timecyclelist.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +179,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="main.hpp" />
     <ClInclude Include="submenus\include.hpp" />
+    <ClInclude Include="submenus\timecycle.hpp" />
     <ClInclude Include="submenus\timecyclelist.hpp" />
     <ClInclude Include="util.hpp" />
   </ItemGroup>

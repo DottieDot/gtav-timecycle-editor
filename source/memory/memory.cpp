@@ -17,4 +17,12 @@ namespace tce::memory
 
 		return pool;
 	}
+
+	const char* get_timecycle_modifier_value_name(uint32_t type)
+	{
+		static const MemoryLocation names = "48 8D 3D ? ? ? ? 48 8D 99 ? ? ? ?"_Scan.get_lea();
+
+
+		return *names.add(0x20 * type).as<const char**>();
+	}
 }
